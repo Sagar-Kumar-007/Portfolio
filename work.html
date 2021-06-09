@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <style>
+        /* Enter your styles here */
+        .mars{
+          padding-left: 7vw; padding-top:25vh;
+        }
+        @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 786px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .mars{
+      padding-top: 1vh;
+    }
+}
+        
+    </style>
+    <title>Sagar's Portfolio</title>
+  </head>
+  <body class="text-white bg-dark">
+          <!-- NavBar -->
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container" style="padding-left: 6vw;">
+              <a class="navbar-brand" href="./index.html"><img src="./images/navbar-logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                <span class="align-text-down" style="padding-left:2vw; font-size:3vh">Sagar Kumar</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse offset-md-6 text-center" id="navbarNav">
+                <ul class="nav navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./work.html">Work</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./gallery.html">Gallery</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    <!-- End of Navbar -->
+    <!-- Work -->
+    <div class="card mb-3 card text-white bg-secondary" style=" margin:auto;max-width: 75rem; padding:2rem; padding-top:0rem;padding-left:0rem;padding-bottom:0rem;box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;">
+        <div class="row g-0">
+          <div class="col-lg-7 col-sm-12">
+            <a href="https://github.com/rogue-data/mars/tree/18eac944f01fd92dedbce8e57f342b4ca80b6d95" target="_blank"><img src="./images/mars.png" style="border-radius: 10px;" class="img-thumbnail border border-secondary bg-secondary" alt=""></a>
+          </div>
+          <div class="col-lg-5 col-sm-12">
+            <div class="card-body mars">
+              <h1 class="card-title" id="typing">M.A.R.S</h1>
+              <p class="card-text" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Music Augmented by Recommendation System</p>
+              <p class="card-text" style="padding-top: 1vh;">Me and my team made a Music Player web app and implemented a music recommendation system using the 160,000 spotify data available on kaggle. We made the recommendation system dynamic , i.e. more and more titles would be added as you search for them using our service. The website has been made using django.</p>
+            </div>
+            <!-- <div class="card-body" style="padding-left: 7vw;">
+                <span><img src="./images/icons8-calender.png" width="30" height="30" style="padding-right: 1vw; width:auto">28th May, 2002</span><br><br>
+                <span><a href="tel:+918688419738" style="color: white; text-decoration:none"><img src="./images/icons8-phone-50.png" width="30" height="30" style="padding-right: 1vw; width:auto">8688419738</a></span><br><br>
+                <span><a href="mailto:sk8814594@gmail.com" style="color: white; text-decoration:none"><img src="./images/icons8-mail-100.png" width="30" height="30" style="padding-right: 1vw; width:auto">Mail Me</a></span><br><br>
+            </div> -->
+            <div class="card-body" style="padding-left: 7vw;">
+                <a href="https://github.com/rogue-data/mars/tree/18eac944f01fd92dedbce8e57f342b4ca80b6d95" target="_blank"><img src="images/icons8-github-50 (2).png" style="padding-left: 0.5vw;" height="35" width="45"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- End of Work -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
